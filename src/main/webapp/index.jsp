@@ -4,14 +4,10 @@
     <title>FirstWebApp</title>
 </head>
 <body>
-<form action="formHandler" method="POST">
-    <input type="text" name="name" value=""/>
-    <input type="submit" name="ok" value="SEND"/>
+
+<a href="login.jsp">login</a>
+<a href="registration.jsp">registration</a>
 
 
-
-
-
-</form>
 </body>
 </html>
