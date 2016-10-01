@@ -33,6 +33,7 @@ public class Controller extends HttpServlet {
         if (name == null) {
             name = req.getParameter("name");
             Cookie cookie = new Cookie("name", name);
+            cookie.setMaxAge(10000);
             resp.addCookie(cookie);
         }
         PrintWriter printWriter = resp.getWriter();
